@@ -19,4 +19,4 @@ L'activation du panel peut se faire avec CTRL + J (configurable dans le .ini),
 
 ## Screenshot:
 
-<img width="416" height="174" alt="image" src="https://github.com/user-attachments/assets/311dd690-a28f-472f-9ba4-3f42975007aa" />
+<img width="619" height="435" alt="image" src="https://github.com/user-attachments/assets/ab9b2c37-bbed-476a-82e6-19ad353b1d36" />
