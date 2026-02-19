@@ -9,9 +9,9 @@
 
 ## Fonctionnement/Commandes
 
-Glissez le fichier **jpanel.lua dans moonloader** ainsi que les dossiers lib et config après avoir installé les pré-requis. Lancez le jeu. Au lancement, vous verrez un panel s'afficher en bas à droite de votre écran par défaut.
+Glissez le fichier **lspdhelper.lua dans moonloader** ainsi que les dossiers lib et config après avoir installé les pré-requis. Lancez le jeu. Au lancement, vous verrez un panel s'afficher en bas à droite de votre écran par défaut.
 
-Utilisez la commande **/jmembres** ou **/jpanelrefresh** pour lancer un refresh automatique du script. Un tri est fait dans les secondes qui suivent pour une meilleur lisibilité. La commande **/jpanelreload** permet de recharger le .ini qui se trouve dans moonloader\config\jpanel.ini. Il est modifiable sans même devoir se déconnecter du jeu.
+Utilisez la commande **/lspdrefresh** pour lancer un refresh automatique du script. Un tri est fait dans les secondes qui suivent pour une meilleur lisibilité. La commande **/lspdreload** permet de recharger le .ini qui se trouve dans moonloader\config\lspdhelper.ini. Il est modifiable sans même devoir se déconnecter du jeu.
 
 ## Informations:
 
