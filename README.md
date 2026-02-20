@@ -13,4 +13,5 @@ Glissez le fichier **lspdhelper.lua dans moonloader** ainsi que les dossiers lib
 
 ## Screenshot:
 
-<img width="619" height="435" alt="image" src="https://github.com/user-attachments/assets/ab9b2c37-bbed-476a-82e6-19ad353b1d36" />
+<img width="492" height="603" alt="image" src="https://github.com/user-attachments/assets/9e945f0e-95ac-49ac-bb1f-101d63be148e" />
+
