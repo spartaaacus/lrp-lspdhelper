@@ -2,10 +2,13 @@
 
 ## Pré-requis pour installation:
 
-- CLEO v4.4.4 minimum
-- SAMPFUNCS (v5.7.1 pour ma part)
-- MOONLOADER (v0.26.5-beta pour ma part)
-- LIBS (samp.lua intégré dans le .rar)
+- [CLEO v4.4.4](https://github.com/cleolibrary/CLEO4/releases/latest) ou + mais **pas CLEO 5**
+- [SAMPFUNCS (v5.7.1 pour ma part)](https://www.blast.hk/attachments/255877/)
+- [MOONLOADER (v0.26.5-beta)](https://samp-mods.com/index.php?do=files&op=showfile&lid=12965)
+
+### Dépendances suivantes également requises:
+- [mimgui v1.7.1](https://github.com/THE-FYP/mimgui/releases/tag/v1.7.1)
+- [samp.lua v2.3.0](https://github.com/THE-FYP/SAMP.Lua)
 
 ## Fonctionnement/Commandes
 
