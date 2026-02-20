@@ -10,7 +10,7 @@
 - [mimgui v1.7.1](https://github.com/THE-FYP/mimgui/releases/tag/v1.7.1)
 - [samp.lua v2.3.0](https://github.com/THE-FYP/SAMP.Lua)
 
-## Fonctionnement/Commandes
+## Installation
 
 Glissez le fichier **lspdhelper.lua dans moonloader** ainsi que les dossiers lib et config après avoir installé les pré-requis. Lancez le jeu. Au lancement, vous verrez un panel s'afficher en bas à droite de votre écran par défaut.
 
