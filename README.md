@@ -11,12 +11,6 @@
 
 Glissez le fichier **lspdhelper.lua dans moonloader** ainsi que les dossiers lib et config après avoir installé les pré-requis. Lancez le jeu. Au lancement, vous verrez un panel s'afficher en bas à droite de votre écran par défaut.
 
-Utilisez la commande **/lspdrefresh** pour lancer un refresh automatique du script. Un tri est fait dans les secondes qui suivent pour une meilleur lisibilité. La commande **/lspdreload** permet de recharger le .ini qui se trouve dans moonloader\config\lspdhelper.ini. Il est modifiable sans même devoir se déconnecter du jeu.
-
-## Informations:
-
-L'activation du panel peut se faire avec CTRL + J (configurable dans le .ini), 
-
 ## Screenshot:
 
 <img width="619" height="435" alt="image" src="https://github.com/user-attachments/assets/ab9b2c37-bbed-476a-82e6-19ad353b1d36" />
