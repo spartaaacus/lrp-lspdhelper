@@ -37,13 +37,18 @@ moonloader/
 
 3. Vérifiez que l’arborescence correspond à celle-ci :
 
-<img width="306" height="326" alt="image" src="https://github.com/user-attachments/assets/cf5959d8-04a4-40f0-86dc-e0403f8ca9ad" />
-
-
+moonloader\lspdhelper.lua
+moonloader\LSPD_Helper\config\lspdhelper.ini
+moonloader\LSPD_Helper\fonts\fa-solid-900.ttf
+moonloader\LSPD_Helper\fonts\InterVariable.ttf
+moonloader\LSPD_Helper\fonts\OpenSans-Regular.ttf
+moonloader\LSPD_Helper\fonts\Roboto-Regular.ttf
+moonloader\LSPD_Helper\sounds\panel_add.wav
+moonloader\LSPD_Helper\README.md
 
 4. Lancez le jeu.
 
-Au lancement, le panel s’affichera par défaut en bas à droite de l’écran.
+Au lancement, le panel s'affichera dès que vous ferez CTRL + J
 
 ---
 
@@ -55,6 +60,9 @@ Au lancement, le panel s’affichera par défaut en bas à droite de l’écran.
 | `/lspdreload` | Recharge la configuration (.ini) |
 | `/lspdrefresh` | Force une actualisation via `/jmembres` |
 | `/lspdvolume [0-100]` | Modifie le volume des notifications |
+| `CTRL + J` | Ouvrir le panel (fenêtre amovible) | 
+| `CTRL + K` | Rendre la souris disponible pour cliquer sur le panel |
+| `N` | Activation des gyrophares et désactivation (pour FPS Unlock principalement` |
 
 Hotkeys configurables dans le `.ini`.
 
