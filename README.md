@@ -1,20 +1,96 @@
-# LRP - LSPD Helper by _spartacus
+# 🚓 LRP - LSPD Helper  
+### by _spartacus
 
-## Pré-requis pour installation:
+Script MoonLoader avancé pour SA-MP permettant d’afficher et gérer dynamiquement la liste des membres LSPD avec interface ImGui moderne, notifications sonores et système d’auto-refresh intelligent.
 
-- [CLEO v4.4.4](https://github.com/cleolibrary/CLEO4/releases/latest) ou + mais **pas CLEO 5**
-- [SAMPFUNCS (v5.7.1 pour ma part)](https://www.blast.hk/attachments/255877/)
-- [MOONLOADER (v0.26.5-beta)](https://samp-mods.com/index.php?do=files&op=showfile&lid=12965)
+---
 
-### Dépendances suivantes également requises:
+## 📋 Pré-requis
+
+Les éléments suivants sont **obligatoires** :
+
+- [CLEO v4.4.4](https://github.com/cleolibrary/CLEO4/releases/latest) ou version supérieure  
+  ⚠️ **CLEO 5 non supporté**
+
+- [SAMPFUNCS (v5.7.1 recommandé)](https://www.blast.hk/attachments/255877/)
+
+- [MoonLoader (v0.26.5-beta)](https://samp-mods.com/index.php?do=files&op=showfile&lid=12965)
+
+---
+
+## 📦 Dépendances Lua requises
+
 - [mimgui v1.7.1](https://github.com/THE-FYP/mimgui/releases/tag/v1.7.1)
 - [samp.lua v2.3.0](https://github.com/THE-FYP/SAMP.Lua)
 
-## Installation
+Ces fichiers doivent être placés dans :
 
-Glissez le fichier **lspdhelper.lua dans moonloader** ainsi que les dossiers lib et config après avoir installé les pré-requis. Lancez le jeu. Au lancement, vous verrez un panel s'afficher en bas à droite de votre écran par défaut.
+moonloader/lib/
 
-## Screenshot:
+## 🛠 Installation
 
-<img width="492" height="603" alt="image" src="https://github.com/user-attachments/assets/9e945f0e-95ac-49ac-bb1f-101d63be148e" />
+1. Installez tous les pré-requis.
+2. Placez le dossier `LSPD_Helper` dans :
 
+moonloader/
+
+
+3. Vérifiez que l’arborescence correspond à celle-ci :
+
+moonloader/
+└── LSPD_Helper/
+├── lspdhelper.lua
+├── config/
+│ └── lspdhelper.ini
+├── sounds/
+│ └── panel_add.wav
+└── fonts/
+├── fa-solid-900.ttf
+├── InterVariable.ttf
+├── OpenSans-Regular.ttf
+└── Roboto-Regular.ttf
+
+
+4. Lancez le jeu.
+
+Au lancement, le panel s’affichera par défaut en bas à droite de l’écran.
+
+---
+
+## 🎮 Commandes
+
+| Commande | Description |
+|----------|------------|
+| `/lspdhelper` | Affiche l’aide des commandes |
+| `/lspdreload` | Recharge la configuration (.ini) |
+| `/lspdrefresh` | Force une actualisation via `/jmembres` |
+| `/lspdvolume [0-100]` | Modifie le volume des notifications |
+
+Hotkeys configurables dans le `.ini`.
+
+## ⚙️ Fonctionnalités
+
+- Interface ImGui moderne
+- Système d’auto-refresh intelligent
+- Détection des changements ON/OFF
+- Notifications toast
+- Notifications sonores
+- Personnalisation complète (police, taille, espacement)
+- Thèmes visuels multiples
+- Sauvegarde automatique des paramètres
+- Gestion propre des assets depuis `LSPD_Helper/`
+
+---
+
+## 📸 Screenshot
+
+<img width="492" height="603" alt="LSPD Helper" src="https://github.com/user-attachments/assets/9e945f0e-95ac-49ac-bb1f-101d63be148e" />
+
+---
+
+## 📜 Licence
+
+Projet développé pour usage SA-MP.
+Modification et redistribution autorisées avec crédit.
+
+---
