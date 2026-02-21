@@ -37,18 +37,8 @@ moonloader/
 
 3. Vérifiez que l’arborescence correspond à celle-ci :
 
-moonloader/
-└── LSPD_Helper/
-├── lspdhelper.lua
-├── config/
-│ └── lspdhelper.ini
-├── sounds/
-│ └── panel_add.wav
-└── fonts/
-├── fa-solid-900.ttf
-├── InterVariable.ttf
-├── OpenSans-Regular.ttf
-└── Roboto-Regular.ttf
+<img width="306" height="326" alt="image" src="https://github.com/user-attachments/assets/cf5959d8-04a4-40f0-86dc-e0403f8ca9ad" />
+
 
 
 4. Lancez le jeu.
