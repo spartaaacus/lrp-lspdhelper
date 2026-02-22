@@ -11,9 +11,7 @@ Les éléments suivants sont **obligatoires** :
 
 - [CLEO v4.4.4](https://github.com/cleolibrary/CLEO4/releases/latest) ou version supérieure  
   ⚠️ **CLEO 5 non supporté**
-
 - [SAMPFUNCS (v5.7.1 recommandé)](https://www.blast.hk/attachments/255877/)
-
 - [MoonLoader (v0.26.5-beta)](https://samp-mods.com/index.php?do=files&op=showfile&lid=12965)
 
 ---
@@ -38,13 +36,10 @@ moonloader/
 3. Vérifiez que l’arborescence correspond à celle-ci :
 
 moonloader\lspdhelper.lua
+
 moonloader\LSPD_Helper\config\lspdhelper.ini
-moonloader\LSPD_Helper\fonts\fa-solid-900.ttf
-moonloader\LSPD_Helper\fonts\InterVariable.ttf
-moonloader\LSPD_Helper\fonts\OpenSans-Regular.ttf
-moonloader\LSPD_Helper\fonts\Roboto-Regular.ttf
+
 moonloader\LSPD_Helper\sounds\panel_add.wav
-moonloader\LSPD_Helper\README.md
 
 4. Lancez le jeu.
 
@@ -66,29 +61,11 @@ Au lancement, le panel s'affichera dès que vous ferez CTRL + J
 
 Hotkeys configurables dans le `.ini`.
 
-## ⚙️ Fonctionnalités
-
-- Interface ImGui moderne
-- Système d’auto-refresh intelligent
-- Détection des changements ON/OFF
-- Notifications toast
-- Notifications sonores
-- Personnalisation complète (police, taille, espacement)
-- Thèmes visuels multiples
-- Sauvegarde automatique des paramètres
-- Gestion propre des assets depuis `LSPD_Helper/`
-
----
-
-## 📸 Screenshot
-
-<img width="492" height="603" alt="LSPD Helper" src="https://github.com/user-attachments/assets/9e945f0e-95ac-49ac-bb1f-101d63be148e" />
-
 ---
 
 ## 📜 Licence
 
-Projet développé pour usage SA-MP.
+Projet développé pour usage SA-MP/OMP.
 Modification et redistribution autorisées avec crédit.
 
 ---
